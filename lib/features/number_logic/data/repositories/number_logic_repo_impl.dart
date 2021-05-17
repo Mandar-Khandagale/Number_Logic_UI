@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 import 'package:flutter/material.dart';
 import 'package:number_logic/core/errors/exception.dart';
 import 'package:number_logic/core/errors/failures.dart';
-import 'package:number_logic/core/platform/network_info.dart';
+import 'package:number_logic/core/network/network_info.dart';
 import 'package:number_logic/features/number_logic/data/datasources/number_logic_local_data_source.dart';
 import 'package:number_logic/features/number_logic/data/datasources/number_logic_remote_data_source.dart';
 import 'package:number_logic/features/number_logic/domain/entities/number_logic.dart';
