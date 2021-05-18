@@ -25,11 +25,8 @@ void main() {
         test(
           'should return a failure when the string is not an integer',
               () async {
-            // arrange
             final str = 'abc';
-            // act
             final result = inputConverter.stringToUnsignedIntegers(str);
-            // assert
             expect(result, Left(InvalidInputFailure()));
           },
         );
@@ -37,11 +34,8 @@ void main() {
         test(
           'should return a failure when the string is a negative integer',
               () async {
-            // arrange
             final str = '-123';
-            // act
             final result = inputConverter.stringToUnsignedIntegers(str);
-            // assert
             expect(result, Left(InvalidInputFailure()));
           },
         );
